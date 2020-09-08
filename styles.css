@@ -19,10 +19,16 @@ h2 {
   margin-bottom: 20px;
 }
 
-.container {
+.container {  
   display: flex;
   align-items: center;
   justify-content: center;  
+}
+
+.wrapper {
+  width: 100%;
+  display: block;
+  padding: 10px;
 }
 
 .center {
@@ -33,15 +39,19 @@ h2 {
   text-align: center;
 }
 
-.wrapper {
-  width: 100%;
-  padding: 10px;
-  display: block;
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
 }
 
 header,
-.mission {
-  width: 1200px;
+.mission,
+.locations,
+footer {
+  max-width: 1200px;
 }
 
 header {
@@ -60,7 +70,6 @@ nav li {
 }
 
 nav {
-  float: right;
   margin: 12.5px;
 }
 
@@ -84,14 +93,54 @@ figure {
 .tea-of-the-month {
   width: 1000px;
   padding-top: 60px;
-}
-
-.tea-of-the-month img {
-  width: 300px;
-  height: 200px;
-  margin-bottom: 10px
+  padding-bottom: 80px;
 }
 
 .tea-of-the-month .container {
   flex-wrap: wrap;
+}
+
+.tea-of-the-month img {
+  max-width: 300px;
+  max-height: 200px;
+  margin-bottom: 10px
+}
+
+.locations {
+  background-image: url(img-locations-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.locations .item {
+  width: 300px;
+  box-sizing: border-box;
+  padding: 20px 5px;
+  line-height: 2.5;
+  background-color: black;
+  margin: 20px;
+}
+
+.locations p {
+  font-size: .9em;
+}
+
+footer {
+  padding: 10px 0 20px 0;
+}
+
+footer h2 {
+  margin-bottom: 40px;
+}
+
+footer h5,
+footer p {
+  font-size: .8em;
+  margin-bottom: 30px
+}
+
+footer .copyright {
+  margin-left: 20px;
 }
