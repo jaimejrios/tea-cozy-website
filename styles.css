@@ -54,7 +54,7 @@ figure {
   background-size: cover;
 }
 
-.mission .wrapper {
+.mission .title {
   background-color: black;
 }
 
@@ -62,10 +62,6 @@ figure {
   max-width: 1000px;
   padding-top: 60px;
   padding-bottom: 80px;
-}
-
-.tea-of-the-month .container {
-  flex-wrap: wrap;
 }
 
 .tea-of-the-month img {
@@ -121,10 +117,14 @@ declarations */
   justify-content: center;  
 }
 
-.wrapper {
+.title {
   width: 100%;
   display: block;
   padding: 10px;
+}
+
+.wrap-items {
+  flex-wrap: wrap
 }
 
 .bold {
