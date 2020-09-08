@@ -10,41 +10,9 @@ a {
   color: seashell;
 }
 
-.bold {
-  font-weight: bold;
-}
-
 h2 {
   font-size: 1.5em;
   margin-bottom: 20px;
-}
-
-.container {  
-  display: flex;
-  align-items: center;
-  justify-content: center;  
-}
-
-.wrapper {
-  width: 100%;
-  display: block;
-  padding: 10px;
-}
-
-.center {
-  margin: 0 auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.pull-left {
-  float: left;
-}
-
-.pull-right {
-  float: right;
 }
 
 header,
@@ -116,11 +84,11 @@ figure {
 
 .locations .item {
   width: 300px;
-  box-sizing: border-box;
-  padding: 20px 5px;
-  line-height: 2.5;
-  background-color: black;
   margin: 20px;
+  line-height: 2.5;
+  padding: 20px 5px;
+  background-color: black;
+  box-sizing: border-box;
 }
 
 .locations p {
@@ -143,4 +111,39 @@ footer p {
 
 footer .copyright {
   margin-left: 20px;
+}
+
+/* html styling
+declarations */
+
+.container {  
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.wrapper {
+  width: 100%;
+  display: block;
+  padding: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
 }
