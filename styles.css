@@ -1,7 +1,97 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 24px;
-  color: seashell;
   background-color: black;
   opacity: 0.9;
+}
+
+body,
+a {
+  color: seashell;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  padding: 10px;
+  display: block;
+}
+
+header,
+.mission {
+  width: 1200px;
+}
+
+header {
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+.logo,
+nav,
+nav li {
+  display: inline-block;
+}
+
+.logo {
+  height: 50px;
+}
+
+nav {
+  float: right;
+  margin: 12.5px;
+}
+
+.logo,
+nav li,
+figure {
+  margin: 10px;
+}
+
+.mission {
+  height: 700px;
+  background-repeat: no-repeat;
+  background-image: url(img-mission-background.jpg);
+  background-size: cover;
+}
+
+.mission .wrapper {
+  background-color: black;
+}
+
+.tea-of-the-month {
+  width: 1000px;
+  padding-top: 60px;
+}
+
+.tea-of-the-month img {
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px
+}
+
+.tea-of-the-month .container {
+  flex-wrap: wrap;
 }
