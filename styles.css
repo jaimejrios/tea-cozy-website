@@ -63,15 +63,13 @@ header {
   border-bottom: 1px solid seashell;
 }
 
-nav,
-nav li,
-.logo {
-  display: inline-block;
-}
-
 nav {
   margin: 12.5px;
   margin-left: auto;
+}
+
+nav li {
+  display: inline-block;
 }
 
 nav li,
