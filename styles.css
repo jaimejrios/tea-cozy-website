@@ -15,6 +15,42 @@ h2 {
   margin-bottom: 20px;
 }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  width: 100%;
+  display: block;
+  padding: 10px;
+}
+
+.wrap-items {
+  flex-wrap: wrap
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.center {
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+}
+
 header,
 .mission,
 .locations,
@@ -27,14 +63,10 @@ header {
   border-bottom: 1px solid seashell;
 }
 
-.logo,
 nav,
-nav li {
-  display: inline-block;
-}
-
+nav li,
 .logo {
-  height: 50px;
+  display: inline-block;
 }
 
 nav {
@@ -42,10 +74,14 @@ nav {
   margin-left: auto;
 }
 
-.logo,
 nav li,
-figure {
+figure,
+.logo {
   margin: 10px;
+}
+
+.logo {
+  height: 50px;
 }
 
 .mission {
@@ -107,43 +143,4 @@ footer p {
 
 footer .copyright {
   margin-left: 20px;
-}
-
-/* html styling
-declarations */
-
-.container {
-  display: flex;
-  align-items: center;
-  justify-content: center;  
-}
-
-.title {
-  width: 100%;
-  display: block;
-  padding: 10px;
-}
-
-.wrap-items {
-  flex-wrap: wrap
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.center {
-  margin: 0 auto;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.pull-left {
-  float: left;
-}
-
-.pull-right {
-  float: right;
 }
