@@ -23,7 +23,7 @@ footer {
 }
 
 header {
-  height: 69px;
+  height: auto;
   border-bottom: 1px solid seashell;
 }
 
@@ -39,6 +39,7 @@ nav li {
 
 nav {
   margin: 12.5px;
+  margin-left: auto;
 }
 
 .logo,
